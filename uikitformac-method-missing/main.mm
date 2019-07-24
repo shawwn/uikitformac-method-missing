@@ -19,6 +19,7 @@ int main(int argc, char** argv)
   return 0;
 }
 
-FOUNDATION_EXTERN void OnStart()
+FOUNDATION_EXTERN void OnStart(UIViewController* controller)
 {
+  [controller setNeedsUpdateOfHomeIndicatorAutoHidden];
 }

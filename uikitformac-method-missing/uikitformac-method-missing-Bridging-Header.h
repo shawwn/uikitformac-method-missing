@@ -3,5 +3,6 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-FOUNDATION_EXTERN void OnStart();
+FOUNDATION_EXTERN void OnStart(UIViewController* controller);
